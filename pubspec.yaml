@@ -1,0 +1,36 @@
+name: spendsnap
+description: Fast personal expense tracker with Notion sync
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^1.1.0
+  fl_chart: ^0.65.0
+  csv: ^5.1.1
+  path_provider: ^2.1.1
+  share_plus: ^7.2.1
+  home_widget: ^0.4.1
+  google_fonts: ^6.1.0
+  intl: ^0.18.1
+  flutter_slidable: ^3.0.1
+  animate_do: ^3.1.2
+  gap: ^3.0.1
+  currency_picker: ^2.0.15
+  quick_actions: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
